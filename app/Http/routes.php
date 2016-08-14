@@ -15,7 +15,8 @@
 */
 Route::group(['middleware' => []], function () {
 
-    Route::get('/', function () {
+
+    Route::get('/ ', function () {
         return view('welcome');
     });
 
